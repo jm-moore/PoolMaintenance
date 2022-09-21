@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Chems>
+
+<h2>Chems</h2>
+<table class="table">
+    <tr>
+        <th>PH</th>
+        <th>Chroline</th>
+        <th>Bromine</th>
+        <th>Alkalinity</th>
+        <th>Stabilizer</th>
+        <th>PoolName</th>
+        <th>PoolID</th>
+    </tr>
+
+    @foreach (var chems in @Model)
+    {
+        <tr>
+            <td>@chems.PH</td>
+            <td>@chems.Chroline</td>
+            <td>@chems.Bromine</td>
+            <td>@chems.Alkalinity</td>
+            <td>@chems.Stabilizer</td>
+            <td>@chems.PoolName</td>
+            <td>@chems.PoolID</td>
+        </tr>
+    }
+
+</table>

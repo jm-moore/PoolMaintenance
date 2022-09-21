@@ -15,12 +15,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\joshu\OneDrive\Desktop\Repos\PoolMaintenance\PoolMaintenance
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/joshu/OneDrive/Desktop/Repos/PoolMaintenance/PoolMaintenance/Views/Chems/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/joshu/OneDrive/Desktop/Repos/PoolMaintenance/PoolMaintenance/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/joshu/OneDrive/Desktop/Repos/PoolMaintenance/PoolMaintenance/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joshu/OneDrive/Desktop/Repos/PoolMaintenance/PoolMaintenance/Views/Maintenance/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnRlbmFuY2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joshu/OneDrive/Desktop/Repos/PoolMaintenance/PoolMaintenance/Views/Pools/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9vbHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/joshu/OneDrive/Desktop/Repos/PoolMaintenance/PoolMaintenance/Views/Shared/Error.cshtml]

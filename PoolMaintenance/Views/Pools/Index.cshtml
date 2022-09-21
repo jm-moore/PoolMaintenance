@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Pools>
+
+<h2>Pools</h2>
+<table class="table">
+    <tr>
+        <th>CleanDate</th>
+        <th>PoolLoc</th>
+        <th>PoolType</th>
+        <th>PoolName</th>
+        <th>PoolID</th>
+    </tr>
+
+    @foreach (var pool in @Model)
+    {
+        <tr>
+            <td>@pool.CleanDate</td>
+            <td>@pool.PoolLoc</td>
+            <td>@pool.PoolType</td>
+            <td>@pool.PoolName</td>
+            <td>@pool.PoolID</td>
+        </tr>
+    }
+
+</table>

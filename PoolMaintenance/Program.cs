@@ -1,4 +1,19 @@
+using MySql.Data.MySqlClient;
+using PoolMaintenance;
+using System.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddScoped<IDbConnection>((s) =>
+{
+    IDbConnection conn = new MySqlConnection(builder.Configuration.GetConnectionString("cleanwater"));
+    conn.Open();
+    return conn;
+});
+
+builder.Services.AddTransient<IChemRepository, ChemRepository>();
+builder.Services.AddTransient<IPoolRepository, PoolRepository>();
+builder.Services.AddTransient<IMaintenanceRepository, MaintenanceRepository>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
